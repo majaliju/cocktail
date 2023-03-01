@@ -1,0 +1,4 @@
+- [ ] deploy the app to Render and get it running
+- [ ] do the postgres databse online
+- [ ] install daisyUI and tailwind in the frontend; possibly screen record it
+- [ ] create some seed info to start with
