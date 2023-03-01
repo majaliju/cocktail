@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :reviews
   resources :bar_cocktails
+  resources :cocktail_drinks
   resources :bars
   resources :users
 
