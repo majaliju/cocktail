@@ -79,8 +79,15 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+
+# ##! this was my original code before I updated via instructions to prep for Render
+# production:
+#   <<: *default
+#   database: cocktail_production
+#   username: cocktail
+#   password: <%= ENV["COCKTAIL_DATABASE_PASSWORD"] %>
+
+##! this is what I put instead
 production:
   <<: *default
-  database: cocktail_production
-  username: cocktail
-  password: <%= ENV["COCKTAIL_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
