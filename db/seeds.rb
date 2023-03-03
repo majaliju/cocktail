@@ -1,3 +1,6 @@
+##~ needs more elaborate seeding, this is just beginner level
+
+
 ore_bar = Bar.create(bar_name: "ORE BAR", city: "Brooklyn", state: "New York")
 basik_bar = Bar.create(bar_name: "Basik", city: "Brooklyn", state: "New York")
 
