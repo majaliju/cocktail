@@ -11,12 +11,12 @@ function App() {
 
   return (
     <div className='App'>
-      <h1 className='text-3xl font-bold '>Page Count: {count}</h1>
+      <h1 className='text-3xl font-bold text-secondary'>Page Count: {count}</h1>
       <div tabIndex={0} className='collapse'>
         <div className='collapse-title text-xl font-medium'>
-          Focus on me to see it
+          Click on me to see it
         </div>
-        <div className='collapse-content'>
+        <div className='collapse-content '>
           <p>There's nothing here dickhead</p>
         </div>
       </div>
