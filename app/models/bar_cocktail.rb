@@ -1,19 +1,19 @@
 class BarCocktail < ApplicationRecord
   belongs_to :bar
-  belongs_to :cocktail
+  belongs_to :cocktail_drink
 
-##! need to review the intialize method 
-  # @@total_count = []
+# ##! need to review the intialize method 
+#   @@total_count = []
 
-  # ## on initialization 
-  # def initialize
-  #     @@total_count << self
-  # end
+#   ## on initialization 
+#   def initialize
+#       @@total_count << self
+#   end
 
 
-  # def self.how_many
-  #   @@total_count
-  # end
+#   def self.how_many
+#     @@total_count
+#   end
 
   def average_rating
     ## take all reviews associated with this instance
