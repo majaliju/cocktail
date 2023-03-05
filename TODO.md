@@ -2,7 +2,7 @@
 
 many people drink, many people want to know where the best drinks are, around them.
 
-## things to implement way after the fact
+## things to implement way after the fact, for expanding the project
 
 - [ ] get a bar API
 - [ ] get a drink API
@@ -10,11 +10,13 @@ many people drink, many people want to know where the best drinks are, around th
 
 # general to-do
 
+- [ ] implement theme selection (https://daisyui.com/docs/themes/)
 - [x] deploy the app to Render and get it running
 - [x] do the postgres databse online
-- [ ] install daisyUI and tailwind in the frontend; possibly screen record it
+- [x] install daisyUI and tailwind in the frontend; possibly screen record it
 - [x] create some seed info to start with
 - [ ] figure out the BarCocktail.first.identity issue (rendering the associations properly)
+- [ ] useContext for running props down; no need for redux (afaik)
 
 ## sketching of backend/frontend relation
 
