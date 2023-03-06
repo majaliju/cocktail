@@ -14,7 +14,7 @@ function App() {
     fetch('/bar_count')
       .then((r) => r.json())
       .then((data) => {
-        console.log('bar_count: ', data);
+        console.log('bar_count from data: ', data);
       });
   }, []);
 
