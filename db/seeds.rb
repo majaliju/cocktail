@@ -32,5 +32,8 @@ blinkys_bar_caipirinha = BarCocktail.create(bar_id: blinkys_bar.id, cocktail_dri
 blinkys_bar_long_island_ice_tea = BarCocktail.create(bar_id: blinkys_bar.id, cocktail_drink_id: long_island_ice_tea.id)
 
 
+puts "----- seeding 20 reviews"
+
+
 
 puts "Seeded well!"

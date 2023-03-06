@@ -8,6 +8,8 @@ class BarCocktail < ApplicationRecord
 
   # def average_rating
   #   ## take all reviews associated with this instance
+  self.reviews.all
+  ## enumerable function, like a reducer
   #   ## get the average rating (a few ways to do it)
   # end
 
