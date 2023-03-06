@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
 
   get '/hello', to: 'application#hello_world'
+
+  get '/bar_count', to: 'bars#bar_count'
  
   get '*path',
   to: 'fallback#index',
