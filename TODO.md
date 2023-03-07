@@ -29,11 +29,8 @@ many people drink, many people want to know where the best drinks are, around th
 ## on the models
 
 - each of Bar, Bar_Cocktail, Cocktail_Drink has
-
   - instance method: an average ranking key (gets all the reviews associated with that instance, and generates an average ranking)
-  - class method: keeping count of how many instances of each there are
+  - class method: keeping count of how many instances of each there are (this info is output'd to frontpage i.e. "With Bars.count making Cocktail_Drink.count of your favorite cocktails, serving Bar_Cocktail.count custom cocktails!)
+  
 
-- bar_cocktails holds a class method for how many drinks there are; that is output'd to frontpage [done via count]
-- bar_cocktails needs an average_ranking key -- instance method which gets all reviews associated with that bar_cocktail, and generates an average
-- cocktail_drinks needs an average_ranking key -- instance method which gets all reviews associated with that bar_cocktail, and generates an average
-- bars needs an average_ranking key, an instance
+
