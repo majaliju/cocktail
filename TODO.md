@@ -2,6 +2,11 @@
 
 many people drink, many people want to know where the best drinks are, around them.
 
+## features to explore
+
+- [ ] mapbox GL js for rendering a map
+- [ ] maybe the Yelp API for seeding data, to pull an assortment of bars
+
 ## things to implement way after the fact, for expanding the project
 
 - [ ] get a bar API
@@ -16,6 +21,7 @@ many people drink, many people want to know where the best drinks are, around th
 - [x] install daisyUI and tailwind in the frontend; possibly screen record it
 - [x] create some seed info to start with
 - [ ] figure out the BarCocktail.first.identity issue (rendering the associations properly)
+- [ ] learning zustand for state management
 - [ ] useContext for running props down; no need for redux (afaik)
 
 ## sketching of backend/frontend relation
@@ -31,6 +37,3 @@ many people drink, many people want to know where the best drinks are, around th
 - each of Bar, Bar_Cocktail, Cocktail_Drink has
   - instance method: an average ranking key (gets all the reviews associated with that instance, and generates an average ranking)
   - class method: keeping count of how many instances of each there are (this info is output'd to frontpage i.e. "With Bars.count making Cocktail_Drink.count of your favorite cocktails, serving Bar_Cocktail.count custom cocktails!)
-  
-
-
