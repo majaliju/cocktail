@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react';
 
 function App() {
+  //! here is where I define my zustand store
+  //! gotta identify elements I want
   const [count, setCount] = useState(0);
   const [barCount, setBarCount] = useState(0);
 
-  useEffect(() => {
-    fetch('/hello')
-      .then((r) => r.json())
-      .then((data) => setCount(data.count));
-  }, []);
+  // useEffect(() => {
+  //   fetch('/hello')
+  //     .then((r) => r.json())
+  //     .then((data) => setCount(data.count));
+  // }, []);
 
   useEffect(() => {
     fetch('/bar_count')
@@ -25,7 +27,7 @@ function App() {
         Bar Count: {barCount}
       </h1>
       <div tabIndex={0} className='collapse'>
-        <div className='collapse-title text-xl font-medium'>
+        <div className='text-xl font-medium collapse-title'>
           Click on me to see it
         </div>
         <div className='collapse-content '>
